@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/dmoylan1/week11CodingProject#readme",
   "dependencies": {
+    "bootstrap": "^5.2.0",
     "jquery": "^3.6.0"
   }
 }

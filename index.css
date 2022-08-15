@@ -1,41 +1,37 @@
-.container{
-	width: 330px;
-	overflow: hidden;
-	margin: 50px auto 0 auto;
+h1 {
+    color: #0275d8;
 }
 
-.container span{
-	display: block;
+.box {
+    border: 1px solid #000;
+    font-size: 85px;
+    text-align: center;
+    line-height: 100px;
 	text-align: center;
-	font-family: sans-serif;
-	font-size: 40px;
-	margin-bottom: 40px;
-}
-
-.container .box{
-	float: left;
 	width: 100px;
-	height: 100px;
-	border: 1px solid #000;
-	transition: all .25s ease-in-out;
-	font-size: 85px;
-	text-align: center;
-	line-height: 100px; 
-	cursor: pointer;
-  }
-
-
-.btn{
-	width: 200px;
-	font-weight: bold;
-	cursor: pointer;
-	font-size: 15px;
-	display: block;
-	margin: 40px auto;
-	
-	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.315);
+    height: 100px;
+    color:#E33CC7;
 }
 
-.win{
-	color: rgb(215, 8, 8);
+.box:hover {
+    background-color: #F8F786;
 }
+
+body {
+    background-color: #F5F474;
+    font-family: 'DynaPuff', cursive;
+}
+
+#button {
+    margin:auto;
+    display:block;
+}
+
+.winner {
+    color:#FFAA47;
+}
+/* 
+blue: 2DDFFF
+pink: E33CC7
+orange: FFAA47
+red: F54D28 */

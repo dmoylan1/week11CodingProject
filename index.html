@@ -6,36 +6,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Week 11 Coding Project</title>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
-    <style>
-        .col {
-            border: 1px solid #000;
-            font-size: 85px;
-	        text-align: center;
-	        line-height: 100px;
-        }
-    </style>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DynaPuff&display=swap" rel="stylesheet">
 </head>
 <body class="container">
         <h1 class="text-center">Tic Tac Toe</h1> 
         <br>
-        <h3 id="turn_header" class="text-center">It is XXX turn</h3>
-        <div class="container text-center" style="	margin: 50px auto 0 auto;">
-            <div class="row border-bottom">
-                <div class="col" style="border-left: 0; border-top: 0" id="box1">X</div>
-                <div class="col" style="border-top: 0" id="box2">X</div>
-                <div class="col"style="border-top: 0; border-right: 0" id="box3">X</div>
-            </div>
-            <div class="row border-bottom">
-                <div class="col" style="border-left: 0; border-top: 0" id="box4">X</div>
-                <div class="col" style="border-top: 0" id="box5">X</div>
-                <div class="col" style="border-right: 0; border-top: 0" id="box6">X</div>
-            </div>
-            <div class="row">
-                <div class="col" style="border-left: 0; border-bottom: 0; border-top: 0" id="box7">X</div>
-                <div class="col" style="border-bottom: 0; border-top: 0" id="box8">X</div>
-                <div class="col" style="border-right: 0; border-bottom: 0; border-top: 0" id="box9">X</div>
-            </div>
+        <div id="grid" class="container text-center">
+            <h3 id="info">Player X Start</h3>
+            <table class="table">
+            <tr>
+                <td class="box" style="border-left: 0; border-top: 0" id="box1"></td>
+                <td class="box" style="border-top: 0" id="box2"</td>
+                <td class="box"style="border-top: 0; border-right: 0" id="box3"></td>
+            </tr>
+            <tr>
+                <td class="box" style="border-left: 0; border-top: 0" id="box4"></td>
+                <td class="box" style="border-top: 0" id="box5"></td>
+                <td class="box" style="border-right: 0; border-top: 0" id="box6"></td>
+            </tr>
+            <tr>
+                <td class="box" style="border-left: 0; border-bottom: 0; border-top: 0" id="box7"></td>
+                <td class="box" style="border-bottom: 0; border-top: 0" id="box8"></td>
+                <td class="box" style="border-right: 0; border-bottom: 0; border-top: 0" id="box9"></td>
+            </tr>
+            </table>
         </div>
+        <br><br>
+        <button class="btn btn-outline-primary" id="button">Start Over</button>
     <script src="index.js"></script>
     <script src="node_modules/jquery/dist/jquery.js"></script>
 </body>
