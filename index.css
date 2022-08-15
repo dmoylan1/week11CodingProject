@@ -2,6 +2,7 @@ h1 {
     color: #0275d8;
 }
 
+/* Stylize grid boxes */
 .box {
     border: 1px solid #000;
     font-size: 85px;
@@ -27,10 +28,13 @@ body {
     display:block;
 }
 
+
 .winner {
     color:#FFAA47;
 }
+
 /* 
+Color scheme
 blue: 2DDFFF
 pink: E33CC7
 orange: FFAA47
